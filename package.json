@@ -6,8 +6,8 @@
   "scripts": {
     "dev:app": "vite",
     "build:app": "vite build",
-    "dev:wiki": "vitepress dev docs",
-    "build:wiki": "vitepress build docs",
+    "dev:wiki": "vitepress dev wiki",
+    "build:wiki": "vitepress build wiki",
     "dev": "concurrently \"npm run dev:app\" \"npm run dev:wiki\"",
     "build": "npm run build:app && npm run build:wiki && mkdir -p dist/wiki && cp -R wiki/.vitepress/dist/* dist/wiki/"
   },
