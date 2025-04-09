@@ -7,7 +7,7 @@ hero:
   actions:
     - theme: alt
       text: "Wiki"
-      link: "/guide/"
+      link: "/faq/"
 
 features:
   - title: "最大級のコミュニティ"
