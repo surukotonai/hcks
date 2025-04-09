@@ -7,7 +7,7 @@ export default defineConfig({
   base: '/wiki/',
   head: [
     
-    ['link', { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+    ['link', { rel: 'icon', type: 'image/x-icon', href: '/public/favicon.ico' }]
   ],
   title: 'HackServer Docs',
   
