@@ -14,7 +14,9 @@ description: ガイド（導入編）
 ---
 
 ### <span id="1">IOSでの入れ方</span>
-
+::: tip note
+最終更新 2025/4/09
+:::
 
 1.[Delta](https://deltaios-executor.com/)を開いてDirectInstallを押します
 ![ ](resource/ios1.png)
