@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  base: '/guide/', 
+  base: '/', 
   title: 'My Docs',
   description: 'VitePress のサンプル',
   themeConfig: {
@@ -13,7 +13,7 @@ export default defineConfig({
         {
           text: 'ガイド',
           items: [
-            { text: '概要', link: '/guide/' },
+            { text: '概要', link: '/' },
             { text: '導入手順', link: '/guide/getting-started' }
           ]
         }
