@@ -6,8 +6,7 @@ export default defineConfig({
   description: 'VitePress のサンプル',
   themeConfig: {
     nav: [
-      { text: 'Home', link: '/guide/' },
-      { text: 'Guide', link: '/guide/' }
+      { text: 'Guide', link: '/guide/' },
     ],
     sidebar: {
       '/guide/': [
