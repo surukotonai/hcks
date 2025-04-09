@@ -4,7 +4,6 @@ layout: home
 hero:
   name: "HackServer Wiki"
   tagline: "日本最大級のチートコミュニティWiki"
-  logo: /output_d747fef3701442e791ef05d65b48704b-uz0s6btr.ico
   actions:
     - theme: alt
       text: "Wiki"
