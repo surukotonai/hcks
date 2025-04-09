@@ -6,10 +6,10 @@
   "scripts": {
     "dev:app": "vite",
     "build:app": "vite build",
-    "dev:docs": "vitepress dev docs",
-    "build:docs": "vitepress build docs",
-    "dev": "concurrently \"npm run dev:app\" \"npm run dev:docs\"",
-    "build": "npm run build:app && npm run build:docs && mkdir -p dist/wiki && cp -R wiki/.vitepress/dist/* dist/wiki/"
+    "dev:wiki": "vitepress dev docs",
+    "build:wiki": "vitepress build docs",
+    "dev": "concurrently \"npm run dev:app\" \"npm run dev:wiki\"",
+    "build": "npm run build:app && npm run build:wiki && mkdir -p dist/wiki && cp -R wiki/.vitepress/dist/* dist/wiki/"
   },
   "dependencies": {
     "lucide-react": "^0.344.0",
