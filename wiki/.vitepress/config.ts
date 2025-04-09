@@ -1,7 +1,26 @@
 // docs/.vitepress/config.ts
 
 import { defineConfig } from 'vitepress'
-
+import { tabsMarkdownPlugin } from 'vitepress-plugin-tabs'
+const commonSidebarItems = [
+  { text: '概要/よくある質問', link: '/faq/' },
+  { text: '導入手順', link: '/guide/' }
+];
+const ExecutorSidebarItems = [
+  { text: 'Solara', link: '/exes/Solara' },
+  { text: 'Xeno', link: '/exes/Xeno' }
+];
+const SideBaritems = [
+  {
+    text: 'HackServer Wiki',
+    items: commonSidebarItems
+  },
+  {
+    text: 'Executor別',
+    items: ExecutorSidebarItems
+    
+  }
+]
 export default defineConfig({
 
   base: '/wiki/',
@@ -19,17 +38,12 @@ export default defineConfig({
       { text: "Wiki", link: "/faq/" },
     ],
     sidebar: {
-
-      '/faq/': [
-        {
-          text: 'HackServer Wiki',
-          items: [
-
-            { text: '概要/よくある質問', link: '/faq/' },
-            { text: '導入手順', link: '/guide/' }
-          ]
-        }
-      ]
+      '/': SideBaritems
+    }
+  },
+  markdown: {
+    config(md) {
+      md.use(tabsMarkdownPlugin)
     }
   }
 })
