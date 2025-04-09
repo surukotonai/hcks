@@ -9,7 +9,7 @@
     "dev:docs": "vitepress dev docs",
     "build:docs": "vitepress build docs",
     "dev": "concurrently \"npm run dev:app\" \"npm run dev:docs\"",
-    "build": "npm run build:app && npm run build:docs && mkdir -p dist/guide && cp -R wiki/.vitepress/dist/* dist/wiki/"
+    "build": "npm run build:app && npm run build:docs && mkdir -p dist/wiki && cp -R wiki/.vitepress/dist/* dist/wiki/"
   },
   "dependencies": {
     "lucide-react": "^0.344.0",
