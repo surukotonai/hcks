@@ -5,7 +5,9 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
 
   base: '/wiki/',
+  publicDir: '../../assets',
   title: 'HackServer Docs',
+  
   description: 'test',
   themeConfig: {
 
