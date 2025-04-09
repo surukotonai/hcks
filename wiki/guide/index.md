@@ -6,14 +6,14 @@ description: ガイド（導入編）
 # Executorの入れ方
 
 ## 目次
-1. [IOSでの入れ方](#iosでの入れ方)
-2. [Androidでの入れ方](#androidでの入れ方)
-3. [PC (Windows)での入れ方](#pcwindowsでの入れ方)
-4. [PC (MAC)での入れ方](#pcmacでの入れ方)
+1. [IOSでの入れ方](#1)
+2. [Androidでの入れ方](#2)
+3. [PC (Windows)での入れ方](#3)
+4. [PC (MAC)での入れ方](#4)
 
 ---
 
-## IOSでの入れ方
+<span id="1">IOSでの入れかた</span>  
 ::: tip Note
 最終更新: 2025/4/09
 :::
@@ -70,7 +70,7 @@ description: ガイド（導入編）
 
 ---
 
-## Androidでの入れ方
+<span id="2">Androidでの入れかた</span>  
 ::: tip Note
 最終更新: 2025/4/09
 :::
@@ -138,6 +138,6 @@ description: ガイド（導入編）
 
 ---
 
-## (その他PC版の手順について)
+### (その他PC版の手順について)
 まだ作ってる途中だぜ.. :sob:
 
