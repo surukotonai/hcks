@@ -16,18 +16,17 @@ export default defineConfig({
 
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Guide', link: '/guide/' },
-      { text: "faq", link: "/faq/" },
+      { text: "Wiki", link: "/faq/" },
     ],
     sidebar: {
 
-      '/guide/': [
+      '/faq/': [
         {
-          text: 'ガイド',
+          text: 'HackServer Wiki',
           items: [
 
-            { text: '概要', link: '/guide/' },
-            { text: '導入手順', link: '/guide/getting-started' }
+            { text: '概要/よくある質問', link: '/faq/' },
+            { text: '導入手順', link: '/guide/' }
           ]
         }
       ]
