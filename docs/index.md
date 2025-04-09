@@ -1,13 +1,12 @@
 ---
-title: はじめに
-description: ガイド（導入編）
+layout: home
+hero:
+  name: "HackServer Wiki"
+  # 画像を使いたい場合は logo を設定 (下記参照)
+  # logo: /logo.png
+  actions:
+    - theme: alt
+      text: "Wiki"
+      link: "/wiki/guide/"  # あるいは外部URLでもOK
 ---
 
-# Getting Started
-
-ここでは VitePress の導入から、最低限必要な設定までを解説します。
-
-1. Node.js / npm / Yarn のインストール
-2. プロジェクトの初期化
-3. `vitepress dev` コマンドでローカルサーバーを立ち上げる
-4. etc...
