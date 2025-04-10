@@ -3,7 +3,7 @@ title: Solara
 description: Solara info
 ---
 
-![solara](/resorce/solara.png)
+![solara](resorce/solara.png)
 
 | 評価点                         | 評価        |
 | ------------------------------ | ----------- |
