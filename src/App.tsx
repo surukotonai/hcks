@@ -93,7 +93,7 @@ function App() {
                   className="inline-flex items-center gap-2 px-6 py-3 bg-indigo-600 hover:bg-indigo-700 text-white transition-all duration-300 rounded-lg transform hover:scale-105 hover:shadow-lg hover:-translate-y-1"
                 >
                   <Discord className="w-5 h-5" />
-                  Discordに参加
+                  a
                 </a>
               </div>
             </div>
