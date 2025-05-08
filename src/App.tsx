@@ -71,7 +71,6 @@ function App() {
                   aria-label="Discord サーバー" 
                 >
                   <Discord className="w-5 h-5" />
-                  i
                 </a>
               </div>
             </div>
