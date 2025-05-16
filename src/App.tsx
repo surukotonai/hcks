@@ -87,7 +87,7 @@ function App() {
               </p>
               <div className="flex gap-4 animate-fade-in-delay-2">
                 <a 
-                  href="https://discord.gg/FhejJDS5Qe" 
+                  href="https://discord.gg/wecq2UVsn9" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 px-6 py-3 bg-indigo-600 hover:bg-indigo-700 text-white transition-all duration-300 rounded-lg transform hover:scale-105 hover:shadow-lg hover:-translate-y-1"
