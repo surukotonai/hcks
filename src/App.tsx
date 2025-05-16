@@ -62,7 +62,7 @@ function App() {
                 
 
                 <a
-                  href="https://discord.gg/FhejJDS5Qe"
+                  href="https://discord.gg/wecq2UVsn9"
                   target="_blank"
                   rel="noopener noreferrer"
                   className={`transition-all duration-300 transform hover:scale-110 hover:rotate-6 ${
